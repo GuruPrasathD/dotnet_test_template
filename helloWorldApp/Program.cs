@@ -7,6 +7,7 @@ namespace helloWorldApp
         static void Main(string[] args)
         {
             Console.WriteLine(returnMessage());
+            Console.WriteLine("Test message");
         }
 
         public static string returnMessage()
